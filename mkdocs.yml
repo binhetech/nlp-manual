@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: NLP Manual
 nav:
     - Home: index.md
 theme: readthedocs
