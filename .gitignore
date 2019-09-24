@@ -3,3 +3,4 @@ site/
 build/
 .idea
 .idea/
+.DS_Store
