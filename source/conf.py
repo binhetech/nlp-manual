@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'inlp'
+project = 'nlp-manual'
 copyright = '2019, binhe'
 author = 'binhe'
 
@@ -57,8 +57,11 @@ templates_path = ['mytemplates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-# source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 # The master toctree document.
 master_doc = 'index'
@@ -111,7 +114,7 @@ html_static_path = ['mystatic']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'inlpdoc'
+htmlhelp_basename = 'nlp-manualdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -138,7 +141,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'inlp.tex', 'inlp Documentation',
+    (master_doc, 'nlp-manual.tex', 'nlp-manual Documentation',
      'binhe', 'manual'),
 ]
 
@@ -148,7 +151,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'inlp', 'inlp Documentation',
+    (master_doc, 'nlp-manual', 'nlp-manual Documentation',
      [author], 1)
 ]
 
@@ -159,8 +162,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'inlp', 'inlp Documentation',
-     author, 'inlp', 'One line description of project.',
+    (master_doc, 'nlp-manual', 'nlp-manual Documentation',
+     author, 'nlp-manual', 'One line description of project.',
      'Miscellaneous'),
 ]
 
