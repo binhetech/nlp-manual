@@ -1,6 +1,5 @@
 site/
 *.log
 build/
-.idea
 .idea/
 .DS_Store
