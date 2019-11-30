@@ -3,3 +3,5 @@ site/
 build/
 .idea/
 .DS_Store
+*.pyc
+__pycache__/
