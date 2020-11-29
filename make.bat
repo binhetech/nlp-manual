@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
-set SPHINXPROJ=inlp
+set SPHINXPROJ=nlp-manual
 
 if "%1" == "" goto help
 

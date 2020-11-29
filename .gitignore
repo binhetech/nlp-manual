@@ -1,6 +1,8 @@
 site/
 *.log
 build/
-.idea
 .idea/
 .DS_Store
+*.pyc
+__pycache__/
+source/
