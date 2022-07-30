@@ -12,10 +12,16 @@
 
 # NLP技术列表
 此处列出本仓库中相关的技术资料的链接。
-+ 语言模型
-+ 词向量技术
++ 语言模型language model
++ 词向量技术 word2vec
 + seq2seq
-+ 拼写纠错
++ 拼写纠错GEC
++ sentence embedding
++ pretrained model
++ prompt learning
++ contrastive learning
++ few shot learning
++ reinforcement learning
 + ...
 
 # 说明
